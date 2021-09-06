@@ -48,7 +48,7 @@ Made with ❤️ **@{UPDATES_CHANNEL}**""",
                 ],
                 [
                     InlineKeyboardButton(
-                        "📦 Source Code 📦", url="https://github.com/Itz-fork/Callsmusic-Plus"
+                        "🔥 Developer 🔥", url="https://t.me/sokapgblg"
                     )
                 ],
                 [
@@ -56,7 +56,7 @@ Made with ❤️ **@{UPDATES_CHANNEL}**""",
                         "🔰️ My Update Channel 🔰️", url=f"https://t.me/{UPDATES_CHANNEL}"
                     ),
                     InlineKeyboardButton(
-                        "⚜️ Support Group ⚜️", url="https://t.me/Nexa_bots"
+                        "⚜️ Support Group ⚜️", url="https://t.me/fourBrothersgroup"
                     )
                 ]
             ]
@@ -127,23 +127,15 @@ async def credits2(_, message: Message):
             await db.add_user(chat_id)
             await Client.send_message(
         chat_id=LOG_CHANNEL,
-        text=f"**📢 News ** \n#New_Music_Lover **Started To Using Meh!** \n\nFirst Name: `{message.from_user.first_name}` \nUser ID: `{message.from_user.id}` \nProfile Link: [{message.from_user.first_name}](tg://user?id={message.from_user.id})",
+        text=f"**📢 News ** \n#New_Music_Lover **Started To Using Me!** \n\nFirst Name: `{message.from_user.first_name}` \nUser ID: `{message.from_user.id}` \nProfile Link: [{message.from_user.first_name}](tg://user?id={message.from_user.id})",
         parse_mode="markdown"
     )
     await message.reply_text(
         f"""<b>Hi {message.from_user.first_name} 😉️!</b>
 
-__Note!__ ⚠️: This Project Is <b>Not Fully Owned By Me</b> !
+__Note!__ ⚠️: This Project Is <b> Fully Owned By Me</b> !
 
-Credits To,
 
-<b><a href="https://github.com/CallsMusic">CallsMusic</a></b> - For Callsmusic (Main Code ❤️) !
-<b>Mr Dark Prince</b>
-<b>TheHamkercat</b>
-<b>AbirHasan2005</b>
-<b>DevsExpo</b>
-<b>TeamDaisyX</b>
-<b>N A C</b>
 
 Made with ❤️ by **@{UPDATES_CHANNEL}**""",
         reply_markup=InlineKeyboardMarkup(
@@ -155,7 +147,7 @@ Made with ❤️ by **@{UPDATES_CHANNEL}**""",
                 ],
                 [
                     InlineKeyboardButton(
-                        "⚜️ Support Group ⚜️", url="https://t.me/Nexa_bots"
+                        "⚜️ Support Group ⚜️", url="https://t.me/fourBrothersGroup"
                     )
                 ]
             ]
@@ -200,7 +192,7 @@ Enjoy 😌️❤️!""",
                         "🔰️ Update Channel 🔰️", url=f"https://t.me/{UPDATES_CHANNEL}"
                     ),
                     InlineKeyboardButton(
-                        "⚜️ Support Group ⚜️", url="https://t.me/Nexa_bots"
+                        "⚜️ Support Group ⚜️", url="https://t.me/fourBrothersgroup"
                     )
                 ]
             ]
