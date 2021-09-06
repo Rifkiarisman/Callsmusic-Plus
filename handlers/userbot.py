@@ -21,7 +21,7 @@ async def ubblock(_, message: Message):
     await NEXAUB.block_user(shit_id)
     await gonna_block_u.edit("`Successfully Blocked This User`")
   except Exception as lol:
-    await gonna_block_u.edit(f"`Can't Block This Guy! May be this is durov?` \n\n**Error:** `{lol}`")
+    await gonna_block_u.edit(f"`Can't Block This Guy! May be this is eror?` \n\n**Error:** `{lol}`")
 
 
 # To Unblock User That Already Blocked
@@ -65,7 +65,7 @@ async def ubkickme(_, message: Message):
 async def ubalive(_, message: Message):
   alive_msg = await message.edit_text("`Processing...`")
   alive_pic = "cache/NexaUB.jpg"
-  await message.reply_photo(alive_pic, caption=f"**🌀 Nexa Music Userbot is Alive 🌀** \n\n**🤖 Version** \n ↳**Bot Version:** `{cp_version}` \n ↳**Userbot Version:** `{nexaub_version}` \n\n**🐬 Info**\n ↳**Music Bot:** @{BOT_USERNAME} \n ↳**Owner:** [Click Here](tg://user?id={BOT_OWNER})")
+  await message.reply_photo(alive_pic, caption=f"**🌀 Music Userbot is Alive 🌀** \n\n**🤖 Version** \n ↳**Bot Version:** `{cp_version}` \n ↳**Userbot Version:** `{nexaub_version}` \n\n**🐬 Info**\n ↳**Music Bot:** @{BOT_USERNAME} \n ↳**Owner:** [Click Here](tg://user?id={BOT_OWNER})")
   await alive_msg.delete()
 
 
